@@ -1,6 +1,6 @@
-# Proyecto: Actividad 1 - StackBlitz con Google Sheets
+# Proyecto: Actividad 1 - En esta primera Actividad Guiada de la asignatura Visualización de Datos, trabajarás con herramientas digitales que te permitirán adquirir habilidades prácticas para representar y compartir datos de forma efectiva e interactiva
 
-**Autor:** Marcelo Prado
+**Autor:** Enrique Marcelo Calle Prado 
 
 **Descripción:**
 Este proyecto consiste en la creación de una página web utilizando HTML, CSS y JavaScript,
