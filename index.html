@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emisiones CO2 toneladas per capita 2023</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f8f9fa;
+      }
+      h1 {
+        text-align: center;
+        margin-bottom: 30px;
+        color: #1a237e;
+        font-size: 24px;
+      }
+      .dashboard {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .metrics {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+      }
+      .metric-card iframe {
+        border: none;
+      }
+      .metric-card {
+        background: white;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .content-section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+      }
+      .content-column {
+        flex: 1;
+        min-width: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+      }
+      .iframe-card {
+        background: white;
+        padding: 8px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 500px;
+        text-align: center;
+      }
+      .iframe-card iframe {
+        border: none;
+      }
+      .iframe-card h4 {
+        font-size: 16px;
+        margin-bottom: 8px;
+      }
+      .dual-charts-wide {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+      }
+      .dual-charts-wide .iframe-card {
+        flex: 1;
+        min-width: 400px;
+        max-width: 600px;
+      }
+      @media (max-width: 768px) {
+        .dual-charts-wide {
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Emisiones CO2 toneladas per capita 2023</h1>
+
+    <div class="dashboard">
+      <!-- Primeras métricas -->
+      <!-- Aquí se presentan las métricas globales principales del CO2 (total, promedio por 1000$, promedio per capita, promedio de variación) -->
+      <div class="metrics">
+        <div class="metric-card">
+          <iframe
+            width="197"
+            height="72"
+            seamless
+            frameborder="0"
+            scrolling="no"
+            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTWOs6eQMx7qRng13i6npRLkoi1RHFfHnwLZfB4ZSuQndmIXI7E1pazDI9JaxVOiiHcZ7aLaQwqTZhN/pubchart?oid=1425725206&amp;format=interactive"
+          ></iframe>
+        </div>
+        <div class="metric-card">
+          <iframe
+            width="197"
+            height="72"
+            seamless
+            frameborder="0"
+            scrolling="no"
+            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTWOs6eQMx7qRng13i6npRLkoi1RHFfHnwLZfB4ZSuQndmIXI7E1pazDI9JaxVOiiHcZ7aLaQwqTZhN/pubchart?oid=1615616783&amp;format=interactive"
+          ></iframe>
+        </div>
+        <div class="metric-card">
+          <iframe
+            width="197"
+            height="72"
+            seamless
+            frameborder="0"
+            scrolling="no"
+            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTWOs6eQMx7qRng13i6npRLkoi1RHFfHnwLZfB4ZSuQndmIXI7E1pazDI9JaxVOiiHcZ7aLaQwqTZhN/pubchart?oid=1634470516&amp;format=interactive"
+          ></iframe>
+        </div>
+        <div class="metric-card">
+          <iframe
+            width="197"
+            height="72"
+            seamless
+            frameborder="0"
+            scrolling="no"
+            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTWOs6eQMx7qRng13i6npRLkoi1RHFfHnwLZfB4ZSuQndmIXI7E1pazDI9JaxVOiiHcZ7aLaQwqTZhN/pubchart?oid=338614922&amp;format=interactive"
+          ></iframe>
+        </div>
+      </div>
+
+      <!-- Resto de secciones (gráficos) -->
+      <div class="content-section">
+        <div class="content-column">
+          <div class="iframe-card">
+            <iframe
+              width="490"
+              height="369"
+              seamless
+              frameborder="0"
+              scrolling="no"
+              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTWOs6eQMx7qRng13i6npRLkoi1RHFfHnwLZfB4ZSuQndmIXI7E1pazDI9JaxVOiiHcZ7aLaQwqTZhN/pubchart?oid=1186170797&amp;format=interactive"
+            ></iframe>
+          </div>
+          <div class="iframe-card">
+            <iframe
+              width="419"
+              height="1072"
+              seamless
+              frameborder="0"
+              scrolling="no"
+              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTWOs6eQMx7qRng13i6npRLkoi1RHFfHnwLZfB4ZSuQndmIXI7E1pazDI9JaxVOiiHcZ7aLaQwqTZhN/pubchart?oid=139380246&amp;format=interactive"
+            ></iframe>
+          </div>
+        </div>
+
+        <div class="content-column">
+          <div class="iframe-card">
+            <iframe
+              width="415"
+              height="745"
+              seamless
+              frameborder="0"
+              scrolling="no"
+              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTWOs6eQMx7qRng13i6npRLkoi1RHFfHnwLZfB4ZSuQndmIXI7E1pazDI9JaxVOiiHcZ7aLaQwqTZhN/pubchart?oid=1914652300&amp;format=interactive"
+            ></iframe>
+          </div>
+          <div class="iframe-card">
+            <h4>Índice mundial de los países con mayor CO₂ Per Capita</h4>
+            <iframe
+              width="415"
+              height="316"
+              seamless
+              frameborder="0"
+              scrolling="no"
+              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTWOs6eQMx7qRng13i6npRLkoi1RHFfHnwLZfB4ZSuQndmIXI7E1pazDI9JaxVOiiHcZ7aLaQwqTZhN/pubchart?oid=504902203&amp;format=interactive"
+            ></iframe>
+          </div>
+          <div class="iframe-card">
+            <iframe
+              width="477"
+              height="299"
+              seamless
+              frameborder="0"
+              scrolling="no"
+              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTWOs6eQMx7qRng13i6npRLkoi1RHFfHnwLZfB4ZSuQndmIXI7E1pazDI9JaxVOiiHcZ7aLaQwqTZhN/pubchart?oid=1925367364&amp;format=interactive"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+
+      <!-- Segundas métricas -->
+      <!-- Aquí se presentan las métricas detalladas: mayor y menor variación, máximos y mínimos de CO2 per capita, kg/1000$ y total -->
+      <div class="metrics">
+        <div class="metric-card">
+          <iframe
+            width="202"
+            height="72"
+            seamless
+            frameborder="0"
+            scrolling="no"
+            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTWOs6eQMx7qRng13i6npRLkoi1RHFfHnwLZfB4ZSuQndmIXI7E1pazDI9JaxVOiiHcZ7aLaQwqTZhN/pubchart?oid=1508988822&amp;format=interactive"
+          ></iframe>
+        </div>
+        <div class="metric-card">
+          <iframe
+            width="202"
+            height="72"
+            seamless
+            frameborder="0"
+            scrolling="no"
+            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTWOs6eQMx7qRng13i6npRLkoi1RHFfHnwLZfB4ZSuQndmIXI7E1pazDI9JaxVOiiHcZ7aLaQwqTZhN/pubchart?oid=674985209&amp;format=interactive"
+          ></iframe>
+        </div>
+        <div class="metric-card">
+          <iframe
+            width="197"
+            height="72"
+            seamless
+            frameborder="0"
+            scrolling="no"
+            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTWOs6eQMx7qRng13i6npRLkoi1RHFfHnwLZfB4ZSuQndmIXI7E1pazDI9JaxVOiiHcZ7aLaQwqTZhN/pubchart?oid=432741887&amp;format=interactive"
+          ></iframe>
+        </div>
+        <div class="metric-card">
+          <iframe
+            width="197"
+            height="72"
+            seamless
+            frameborder="0"
+            scrolling="no"
+            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTWOs6eQMx7qRng13i6npRLkoi1RHFfHnwLZfB4ZSuQndmIXI7E1pazDI9JaxVOiiHcZ7aLaQwqTZhN/pubchart?oid=944356578&amp;format=interactive"
+          ></iframe>
+        </div>
+        <div class="metric-card">
+          <iframe
+            width="197"
+            height="72"
+            seamless
+            frameborder="0"
+            scrolling="no"
+            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTWOs6eQMx7qRng13i6npRLkoi1RHFfHnwLZfB4ZSuQndmIXI7E1pazDI9JaxVOiiHcZ7aLaQwqTZhN/pubchart?oid=1039696768&amp;format=interactive"
+          ></iframe>
+        </div>
+        <div class="metric-card">
+          <iframe
+            width="197"
+            height="72"
+            seamless
+            frameborder="0"
+            scrolling="no"
+            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTWOs6eQMx7qRng13i6npRLkoi1RHFfHnwLZfB4ZSuQndmIXI7E1pazDI9JaxVOiiHcZ7aLaQwqTZhN/pubchart?oid=1685160208&amp;format=interactive"
+          ></iframe>
+        </div>
+        <div class="metric-card">
+          <iframe
+            width="197"
+            height="72"
+            seamless
+            frameborder="0"
+            scrolling="no"
+            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTWOs6eQMx7qRng13i6npRLkoi1RHFfHnwLZfB4ZSuQndmIXI7E1pazDI9JaxVOiiHcZ7aLaQwqTZhN/pubchart?oid=1091636931&amp;format=interactive"
+          ></iframe>
+        </div>
+        <div class="metric-card">
+          <iframe
+            width="197"
+            height="72"
+            seamless
+            frameborder="0"
+            scrolling="no"
+            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTWOs6eQMx7qRng13i6npRLkoi1RHFfHnwLZfB4ZSuQndmIXI7E1pazDI9JaxVOiiHcZ7aLaQwqTZhN/pubchart?oid=1720635170&amp;format=interactive"
+          ></iframe>
+        </div>
+      </div>
+
+      <iframe
+        width="864"
+        height="401"
+        seamless
+        frameborder="0"
+        scrolling="no"
+        style="display: block; margin: 0 auto"
+        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTWOs6eQMx7qRng13i6npRLkoi1RHFfHnwLZfB4ZSuQndmIXI7E1pazDI9JaxVOiiHcZ7aLaQwqTZhN/pubchart?oid=1864966535&amp;format=interactive"
+      ></iframe>
+    </div>
+  </body>
+</html>
