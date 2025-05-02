@@ -7,7 +7,7 @@ Este proyecto consiste en la creación de una página web utilizando HTML, CSS y
 integrando gráficos generados en Google Sheets mediante `iframe`, según los requisitos de la actividad.
 
 **URL del Proyecto en StackBlitz:**
-[Ver proyecto en StackBlitz](https://stackblitz.com/~)
+[Ver proyecto en StackBlitz](https://stackblitz.com/~/github.com/marcelo-prado97/actividad1-stackblitz-googlesheet)
 
 **Repositorio en GitHub:**
 [Repositorio en GitHub](https://github.com/marcelo-prado97/actividad1-stackblitz-googlesheet)
